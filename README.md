@@ -1,8 +1,8 @@
-# SASS
+# SASS / SCSS
 
 # 🏥 Hospital Website
 
-A fully responsive and interactive hospital website built using **HTML, SCSS, and JavaScript**. The website features animations, a carousel, form validation, an animated navbar, and a well-structured file organization.
+Welcome to the Hospital Website, Built with HTML, SCSS, and JavaScript, this website ensures a professional and engaging user experience across all devices. This project incorporates advanced animations, interactive elements, and dynamic features to enhance to provide users with a seamless browsing experience.
 
 ## ✨ Features
 
@@ -31,10 +31,10 @@ A fully responsive and interactive hospital website built using **HTML, SCSS, an
 - **Formspree (Form Handling)** 📬
 
 ## 🚀 Project Setup
-![Folder structure]()
+![Folder structure](https://github.com/BRajendra10/SASS/blob/4f9b28b45cca3e13c9653c6fa1b92547cef9b45f/Hospital%20website%20-%20EGATOR/assets/Folder%20structure.png)
 
 ## 🌍 Live Demo
-👉 [Live Website](#)
+👉 [Live Website](https://gregarious-zuccutto-6708a8.netlify.app/)
 
 ## ✍️ Author
 - **Rajendra Behera**
