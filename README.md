@@ -23,14 +23,14 @@ Welcome to the Hospital Website, Built with HTML, SCSS, and JavaScript, this web
 - Allows data submission without requiring a backend.
 - Enhanced validation to ensure user input is correct before submission.
 
-## 🛠 Technologies Used
+### 4. 🛠 Technologies Used
 - **HTML** 📄
 - **SCSS** 🎨
 - **JavaScript** ⚡
 - **Boxicons (Icons)** 🎭
 - **Formspree (Form Handling)** 📬
 
-## 🚀 Project Setup
+## 🚀 Folder structure
 ![Folder structure](https://github.com/BRajendra10/SASS/blob/4f9b28b45cca3e13c9653c6fa1b92547cef9b45f/Hospital%20website%20-%20EGATOR/assets/Folder%20structure.png)
 
 ## 🌍 Live Demo
