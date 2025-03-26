@@ -1,0 +1,80 @@
+.card-section{
+    width: 100%;
+    height: fit-content;
+
+    .card-container{
+        width: 80%;
+        height: fit-content;
+        margin: auto;
+        padding: 30px 0;
+
+        .card-item-container{
+            display: grid;
+            overflow: hidden;
+            grid-template-columns: repeat(6, minmax(150px, 1fr));
+            grid-template-rows: repeat(1, minmax(150px, 170px));
+            gap: 30px;
+
+            .card{
+                // width: 170px;
+                // height: 170px;
+                padding: 20px;
+                border-radius: 8px;
+                @include flexbox(column, space-evenly, center);
+    
+                img{
+                    margin: auto;
+                }
+    
+                .texts{
+                    text-align: center;
+                    font-weight: 500;
+    
+                    span{
+                        font-size: 15px;
+                    }
+    
+                    h5{
+                        font-size: 18px;
+                    }
+                }
+            }
+    
+            .report-card, .project-card{
+                background-color: $primary-emphasis;
+                color: $primary-color;
+            }
+    
+            .payroll-card, .emplyoee-card{
+                background-color: $success-emphasis;
+                color: $success-color;
+            }
+    
+            .event-card{
+                background-color: $danger-emphasis;
+                color: $danger-color;
+            }
+    
+            .client-card{
+                background-color: $warning-emphasis;
+                color: $warning-color;
+            }
+        }
+    }
+}
+
+// @media (max-width: 1400px) {
+//     .card-section{
+//         .card-container{
+//             display: none;
+//         }
+//     }
+// }
+
+// @media (max-width: 992px) {
+//     .card-section{
+//         .card-container{
+//             display: none;
+//         }
+//     }
+// }
