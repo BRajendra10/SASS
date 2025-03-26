@@ -33,8 +33,10 @@ Welcome to the Hospital Website, Built with HTML, SCSS, and JavaScript, this web
 ### 🚀 Folder structure
 ![Folder structure](https://github.com/BRajendra10/SASS/blob/4f9b28b45cca3e13c9653c6fa1b92547cef9b45f/Hospital%20website%20-%20EGATOR/assets/Folder%20structure.png)
 
-### 🌍 Live Demo
-👉 [Live Website](https://gregarious-zuccutto-6708a8.netlify.app/)
+#### output
+![View Project](https://github.com/BRajendra10/SASS/blob/92c8c44b1279f69368a931865a626f2f25bf3197/Hospital%20website%20-%20EGATOR/assets/Egator%20recording.gif)
+
+[Live Website](https://gregarious-zuccutto-6708a8.netlify.app/)
 
 ### ✍️ Author
 - **Rajendra Behera**
