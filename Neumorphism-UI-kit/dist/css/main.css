@@ -20,7 +20,7 @@
   height: 80%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 .main .container .main-card, .main .container .main-control {
@@ -32,8 +32,8 @@
   align-items: center;
 }
 .main .container .main-card .card, .main .container .main-control .card {
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   background-color: lightcyan;
   border-radius: 58px;
   background: #e0e0e0;
@@ -41,9 +41,20 @@
 }
 .main .container .main-control .control {
   width: 550px;
-  height: 400px;
+  height: 500px;
+  color: #617285;
+  font-size: 18px;
   padding: 20px;
   border-radius: 30px;
   background: #ededed;
   box-shadow: 41px 41px 82px #bebebe, -41px -41px 82px #ffffff;
+}
+.main .container .main-control .control .label {
+  display: inline-block;
+  margin: 12px 5px;
+}
+.main .container .main-control .control input[type=range] {
+  width: 100%;
+  height: 8px;
+  background: #053a5f;
 }/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+$text-color: #617285;
+
 *{
     margin: 0%;
     padding: 0%;
@@ -22,7 +24,7 @@
         width: 100%;
         height: 80%;
         // background-color: lightcoral;
-        @include flexbox(row, space-evenly, center);
+        @include flexbox(row, center, center);
 
         .main-card{
             width: 40%;
@@ -30,8 +32,8 @@
             @include flexbox(row, center, center);
 
             .card{
-                width: 500px;
-                height: 500px;
+                width: 300px;
+                height: 300px;
                 background-color: lightcyan;
                 border-radius: 58px;
                 background: #e0e0e0;
@@ -44,11 +46,24 @@
 
             .control{
                 width: 550px;
-                height: 400px;
+                height: 500px;
+                color: $text-color;
+                font-size: 18px;
                 padding: 20px;
                 border-radius: 30px;
                 background: #ededed;
                 box-shadow:  41px 41px 82px #bebebe, -41px -41px 82px #ffffff;
+
+                .label{
+                    display: inline-block;
+                    margin: 12px 5px;
+                }
+
+                input[type="range"] {
+                    width: 100%;
+                    height: 8px;
+                    background: #053a5f;
+                }
             }
         }
     }
