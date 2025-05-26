@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
 }
-.main .container .main-card, .main .container .main-control {
+.main .container .main-card {
   width: 40%;
   height: 600px;
   display: flex;
@@ -31,23 +31,32 @@
   justify-content: center;
   align-items: center;
 }
-.main .container .main-card .card, .main .container .main-control .card {
+.main .container .main-card .card {
   width: 300px;
   height: 300px;
-  background-color: lightcyan;
   border-radius: 58px;
   background: #e0e0e0;
   box-shadow: 41px 41px 82px #bebebe, -41px -41px 82px #ffffff;
 }
-.main .container .main-control .control {
-  width: 550px;
-  height: 500px;
-  color: #617285;
-  font-size: 18px;
+.main .container .main-control {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   border-radius: 30px;
   background: #ededed;
   box-shadow: 41px 41px 82px #bebebe, -41px -41px 82px #ffffff;
+}
+.main .container .main-control .control {
+  width: 500px;
+  height: 380px;
+  color: #617285;
+  font-size: 18px;
 }
 .main .container .main-control .control .label {
   display: inline-block;
@@ -57,4 +66,24 @@
   width: 100%;
   height: 8px;
   background: #053a5f;
+}
+.main .container .main-control .code-snippet {
+  width: 500px;
+  height: 100px;
+  background-color: #001F3F;
+  padding: 10px;
+  line-height: 22px;
+  position: relative;
+}
+.main .container .main-control .code-snippet .property {
+  color: cadetblue;
+}
+.main .container .main-control .code-snippet .value {
+  color: white;
+}
+.main .container .main-control .code-snippet .btn-copy {
+  padding: 5px 8px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
 }/*# sourceMappingURL=main.css.map */
